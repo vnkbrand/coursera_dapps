@@ -64,6 +64,31 @@ Requested call and function is executed using appropriate API and Smart Contract
 Result returned to we client.
 
 
+<!-- WEEK 2: Truffle Development -->
+
+Voting DApp - LOGIC
+
+1. Only the chairperson can register other voters.
+2. A voter can be registered only once.
+3. Only registered voters can vote. 
+4. Voters can vote only once. 
+5. There is no "write in" that is voters can vote only for the items presented.
+6. The chairperson's vote has double the weightage of the regular voter.
+
+Design Process
+1. Define daa & operations
+2. Add modifiers & validation checks
+3. Perform unit testing
+4. Integration testing
+
+Design process to Voting App Process:
+1. Design Ballot.sol
+2. Add modifier ("onlyOwner") - only owner referring to the qualified person as the chairperson.
+3. Add tester code and run tests
+4. Add UI
+5. Test the complete app by using UI
+
+
 
 
 
